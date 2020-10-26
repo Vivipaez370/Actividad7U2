@@ -1,0 +1,39 @@
+.Menu_Navegacion
+{
+    width: 100%;
+    height: auto;
+    z-index: 101;
+    background: black;
+    font-size: 23px;
+    font-family: "Homer Simpson UI";
+    text-align: center;
+}
+
+.ImagenInicio{
+    background: black;
+    margin: auto;
+    float: inline-end;
+}
+
+.Menu ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.Menu li {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.Menu li a:hover{
+    color: orange;
+    text-decoration: overline;
+}
+
+.Menu li a{
+    text-decoration: none;
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+}

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin-left: 30px;
+    background-color: black;
+    opacity: inherit;
+}
+
+.BloqueTitulo{
+    font-size: 35px;
+    margin: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Homer Simpson UI";
+    color: blue;
+    background-image: url("Imagenes/Grupo4");
+}
+
+.Introduccion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+
+.BloqueVideo{
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(14, 40, 141);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Imagenes/Grupo4.jpg);
+    opacity: 2;
+    background-color: transparent;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.ParrafoVideo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: black;
+    margin-left: 35px;
+    font-size: 20px;
+    float: left;
+}
+
+.Bloquepilares{
+    color: rgb(243, 184, 21);
+    font-family: "Homer SImpson UI";
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.pilarparrafo{
+margin-right: 45px;
+text-align: justify;
+}
+

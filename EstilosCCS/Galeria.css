@@ -1,0 +1,73 @@
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .Galeria{
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.Galeria_GUNS{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+  }
+  
+  ul.Galeria_GUNS li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity 1;
+      background:black;
+  }
+  
+  ul.Galeria_GUNS li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+  }
+  
+  ul.Galeria_GUNS li {
+      opacity: 1; 
+  }
+  
+  ul.Galeria_GUNS li:target {
+      opacity: 1;
+  }
+  
+  .MenuGaleria{
+    text-align: center;
+    margin: center;
+  }
+  
+  .MenuGaleria li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .MenuGaleria li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "open sans";
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:  rgb(29, 41, 204);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #7F7FD5;  
+    background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.618), #86a8e788, #7f7fd5a8) url(../img/neu1.jpg);  
+    background: linear-gradient(to right, hsla(176, 68%, 74%, 0.618), #86a8e788, #7f7fd5a8) url(../img/neu1.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: white;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-neu{
+    width: 25%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: greenyellow;
+    color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.contenido-textos p{
+    padding: 0px 0px  30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.portafolio{
+    background: whitesmoke;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.imagen-port >img{
+    width: 100%;
+    height: 100%;
+    object-fit: conver;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
